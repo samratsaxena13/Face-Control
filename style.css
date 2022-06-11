@@ -1,0 +1,25 @@
+body
+{
+	background-color: #B8F2E6;
+	text-align: center;
+	font-family: 'Montserrat';
+}
+h1 
+{
+	font-weight: 600;
+}
+code
+{
+	font-size: 20px;
+	color: black;
+	background-color: white;
+	border: 1px black solid;
+	font-family: 'Montserrat';
+	font-weight: 700;
+}
+canvas
+{
+	background: white;
+	border: 10px double black;
+	border-radius: 20px;
+}
