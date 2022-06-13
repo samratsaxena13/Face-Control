@@ -33,7 +33,7 @@ recognition.onresult = function(event) {
     } else if(transcriptVal == "neutral") {
         document.getElementById("status").innerHTML = "Drawing neutral face...";
         drawBlank = "drawing";
-    } else if(transcriptVal == "surprised") {
+    } else if(transcriptVal == "surprised" || transcriptVal == "surprise") {
         document.getElementById("status").innerHTML = "Drawing surprised face...";
         drawShock = "drawing";
     } else {
